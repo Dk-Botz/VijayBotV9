@@ -1,13 +1,13 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Dk-Botz/TovinoBotV3.git /TovinoBotV3
+  git clone https://github.com/Dk-Botz/VijayBotV9.git /VijayBotV9
 
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /TovinoBotV3
+  git clone $UPSTREAM_REPO /VijayBotV9
 fi
-cd /TovinoBotV3
+cd /VijayBotV9
 pip3 install -U -r requirements.txt
 echo "Starting 𝘋𝘒𝘹𝘉𝘖𝘛𝘻...."
 python3 bot.py
