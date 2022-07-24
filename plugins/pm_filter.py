@@ -426,11 +426,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             msg = await client.send_cached_media(
                 chat_id=AUTH_CHANNEL,
                 file_id=file_id,
-                caption=f'<b>ʜᴀɪ 👋 {query.from_user.mention}</b> \n\n<code> 🎬 ғɪʟᴇ ɴᴀᴍᴇ - [DKxBOTz] {title}</code>\n\n 〽️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ {query.message.chat.title}',
+                caption=f'<b>Hᴀɪ 👋 {query.from_user.mention}</b> \n\n<code> 🎬 Fɪʟᴇ ɴᴀᴍᴇ - [DKxBOTz] {title}</code>\n\n 〽️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ {query.message.chat.title}',
                 protect_content=True if ident == "filep" else False 
             )
             msg1 = await query.message.reply(
-                f'<b> ʜᴀɪ 👋 {query.from_user.mention} </b>🍬\n\n<b>📫 ʏᴏᴜʀ ғɪʟᴇ ɪs ʀᴇᴅʏ</b>\n\n'           
+                f'<b> Hᴀɪ 👋 {query.from_user.mention} </b>🍬\n\n<b>📫 Yᴏᴜʀ Fɪʟᴇ Is Rᴇᴅʏ</b>\n\n'           
                 f'<b>📂 Fɪʟᴇ Nᴀᴍᴇ</b> : <code>[DKxBOTz] {title}</code>\n\n'              
                 f'<b>⚙️ Fɪʟᴇ Sɪᴢᴇ</b> : <b>{size}</b>',
                 True,
@@ -438,10 +438,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton('📥 ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ 📥 ', url = msg.link)
+                            InlineKeyboardButton('📥 Dᴏᴡɴʟᴏᴀᴅ Lɪɴᴋ 📥 ', url = msg.link)
                         ],                       
                         [
-                            InlineKeyboardButton("⚠️ ᴄᴀɴ'ᴛ ᴀᴄᴄᴇꜱꜱ ❓ ᴄʟɪᴄᴋ ʜᴇʀᴇ⚠️", url=f'https://t.me/FILTERxAUTOBOT')
+                            InlineKeyboardButton("⚠️ Cᴀɴ'ᴛ Aᴄᴄᴇꜱꜱ ❓ Cʟɪᴄᴋ Hᴇʀᴇ⚠️", url=f'https://t.me/FILTERxAUTOBOT')
                         ]
                     ]
                 )
