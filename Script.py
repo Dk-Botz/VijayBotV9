@@ -36,7 +36,7 @@ class script(object):
 
 CODES:
 
-» https://github.com/Dk-Botz/TovinoBotV3
+» https://github.com/Dk-Botz/VijayBotV9
 """
     TTS_TXT = """<b>TEXT TO SPEACH</b>
 Simple Telegram Text-To-Speech Module.
