@@ -1,5 +1,5 @@
 {
-    "name": "Tovino Bot V3",
+    "name": "Vijay Bot V9",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
     "keywords": [
@@ -17,8 +17,8 @@
       "Redirect Bot",
       "Vijay Bot"
     ],
-    "website": "https://github.com/Dk-Botz/TovinoBotV3",
-    "repository": "https://github.com/Dk-Botz/TovinoBotV3",
+    "website": "https://github.com/Dk-Botz/VijayBotV9",
+    "repository": "https://github.com/Dk-Botz/VijayBotV9",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
