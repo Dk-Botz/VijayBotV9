@@ -426,13 +426,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
             msg = await client.send_cached_media(
                 chat_id=AUTH_CHANNEL,
                 file_id=file_id,
-                caption=f'<b>Hᴀɪ 👋 {query.from_user.mention}</b> \n\n<code> 🎬 Fɪʟᴇ ɴᴀᴍᴇ - [DKxBOTz] {title}</code>\n\n 〽️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ {query.message.chat.title}',
+                caption=f'<b>Hᴀɪ 👋 {query.from_user.mention}</b> \n\n<code> 🎬 Fɪʟᴇ ɴᴀᴍᴇ - [DKxBOTz] {title}</code>\n\n =========== • ✠ • ===========
+
+▫️ ɢʀᴏᴜᴘ : @filmz_hous
+
+▫️ ᴄʜᴀɴɴᴇʟ : @films_hous
+
+=========== • ✠ • ===========,
                 protect_content=True if ident == "filep" else False 
             )
             msg1 = await query.message.reply(
-                f'<b> Hᴀɪ 👋 {query.from_user.mention} </b>🍬\n\n<b>📫 Yᴏᴜʀ Fɪʟᴇ Is Rᴇᴅʏ</b>\n\n'           
-                f'<b>📂 Fɪʟᴇ Nᴀᴍᴇ</b> : <code>[DKxBOTz] {title}</code>\n\n'              
-                f'<b>⚙️ Fɪʟᴇ Sɪᴢᴇ</b> : <b>{size}</b>',
+                f'<b>📂 Fɪʟᴇ Nᴀᴍᴇ</b> : <code>[DKxBOTz] {title}</code>\n\n'           
+                f'<b>           '              
+                f'<b>=========== • ✠ • ==========='
+                f'<b>▫️ ɢʀᴏᴜᴘ : @filmz_hous'
+                f'<b>▫️ ᴄʜᴀɴɴᴇʟ : @films_hous
+                f'<b>=========== • ✠ • ==========='
+                f'<b> ,
                 True,
                 'html',
                 reply_markup=InlineKeyboardMarkup(
